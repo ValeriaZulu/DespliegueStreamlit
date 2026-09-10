@@ -22,7 +22,7 @@ import matplotlib.pyplot as plt
 
 #Cargamos el modelo
 import pickle
-filename = 'modelo-reg.pkl'
+filename = 'modelo-reg1.pkl'
 modelo, min_max_scaler, variables = pickle.load(open(filename, 'rb'))
 
 #modelo #me muestra qué modelo escogí
